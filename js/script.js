@@ -6,19 +6,19 @@ FSJS project 1 - A Random Quote Generator
 // array of Quotes
 var quotes= [
 {
-  quote:'If you don’t like something, change it.  If you can’t change it, change your attitude.''
+  quote:'If you don’t like something, change it.  If you can’t change it, change your attitude.',
   source: 'Maya Angelou',
   year:
   category:
 },
 {
-  quote:'People die but legends live forever.''
+  quote:'People die but legends live forever.'
   source: 'Tupac Shakur'
   year:
 
 },
 {
-  quote: 'Don’t get mad at me for being the best of what I was created to be.'
+  quote: 'Don’t get mad at me for being the best of what I was created to be.',
   source:'Kevin Gates',
   year: '2016'
 
