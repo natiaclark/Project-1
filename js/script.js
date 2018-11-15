@@ -3,7 +3,8 @@ Treehouse Techdegree:
 FSJS project 1 - A Random Quote Generator
 ******************************************/
 
-// array of Quotes
+// set up my array function with quotes from an online website.
+//
 var quotes= [
 {
   quote:'If you don’t like something, change it.  If you can’t change it, change your attitude.',
@@ -40,7 +41,7 @@ var quotes= [
 
 
 
-  //Create the `getRandomQuote` function to:
+  //This function will get random quotes
   function getRandomQuote(array) {
 
        return array[Math.floor(Math.random() * array.length)];
@@ -48,13 +49,15 @@ var quotes= [
    }
   {
     //Timer on generating quotes every 20 sec.
+    //included for exceeds expectation
    function timedQuoteChange() {
 
      return setInterval(printQuote, 20000);
 
   }
 
-// This function changes the background color
+// This function changes the background color using rgb
+// added to exceeds expectation
      function changeBackgroundColor() {
 
   var r = Math.floor(Math.random() * 255);
@@ -66,23 +69,21 @@ var quotes= [
   newColor = "rgb(" + r + "," + g + "," + b + ")";
 
   //document.body.style.backgroundColor = newColor;
-
-  return newColor;
-   }
+    return newColor;
+   
+     }
 
 
     
-    // function printQuote:
-function printQuote() {
+   
+  
+    function printQuote() {
 
       var randomQuote = getRandomQuote(quotes);
 
       var quoteProps = '';
 
-      
-
-//
-      quoteProps = '<p class="quote">' + randomQuote.quote + '</p><p class="source">'
+         quoteProps = '<p class="quote">' + randomQuote.quote + '</p><p class="source">'
 
           + randomQuote.source + '<span class="citation">'
 
@@ -93,11 +94,16 @@ function printQuote() {
           + randomQuote.category + '</span> </p>';
   
   {
-  document.body.style.backgroundColor = changeBackgroundColor();
+    
+    document.body.style.backgroundColor = changeBackgroundColor();
 
     print(quoteToPrint);
+  
   }
 
+ 
+
+// function to place new HTML quote inside the "quote-box" div"
     document.getElementById('quote-box').innerHTML = quoteProps;
 
   }
@@ -112,4 +118,3 @@ document.getElementById('loadQuote').addEventListener("click", printQuote);
 
 
 
-// Remember to delete the comments that came with this file, and replace them with your own code comments.
