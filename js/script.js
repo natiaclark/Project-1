@@ -7,7 +7,7 @@ FSJS project 1 - A Random Quote Generator
 //
 var quotes= [
 {
-  quote:'If you don’t like something, change it.  If you can’t change it, change your attitude.',
+  quote:'If you don\’t like something, change it.  If you can’t change it, change your attitude.',
   source: 'Maya Angelou',
   
 },
@@ -18,7 +18,7 @@ var quotes= [
 
 },
 {
-  quote: 'Don’t get mad at me for being the best of what I was created to be.',
+  quote: 'Don\’t get mad at me for being the best of what I was created to be.',
   source:'Kevin Gates',
   year: '2016'
 
@@ -36,12 +36,7 @@ var quotes= [
 
 ];
 
-
-
-
-
-
-  //This function will get random quotes
+   //This function will get random quotes
   function getRandomQuote(array) {
 
        return array[Math.floor(Math.random() * array.length)];
@@ -56,7 +51,7 @@ var quotes= [
 
   }
 
-// This function changes the background color using rgb
+// This function changes the background to random colors
 // added to exceeds expectation
      function changeBackgroundColor() {
 
@@ -74,9 +69,7 @@ var quotes= [
      }
 
 
-    
-   
-  
+     //This function displays the quote arrays.  
     function printQuote() {
 
       var randomQuote = getRandomQuote(quotes);
@@ -96,8 +89,7 @@ var quotes= [
   {
     
     document.body.style.backgroundColor = changeBackgroundColor();
-
-    print(quoteToPrint);
+     print(quoteToPrint);
   
   }
 
