@@ -1,4 +1,4 @@
-/******************************************
+`/******************************************
 Treehouse Techdegree:
 FSJS project 1 - A Random Quote Generator
 ******************************************/
@@ -41,35 +41,9 @@ var quotes= [
 
        return array[Math.floor(Math.random() * array.length)];
 
-   }
-  {
-    //Timer on generating quotes every 20 sec.
-    //included for exceeds expectation
-   function timedQuoteChange() {
-
-     return setInterval(printQuote, 20000);
-
-  }
-
-// This function changes the background to random colors
-// added to exceeds expectation
-     function changeBackgroundColor() {
-
-  var r = Math.floor(Math.random() * 255);
-
-  var g = Math.floor(Math.random() * 255);
-
-  var b = Math.floor(Math.random() * 255);
-
-  newColor = "rgb(" + r + "," + g + "," + b + ")";
-
-  //document.body.style.backgroundColor = newColor;
-    return newColor;
    
-     }
-
-
-     //This function displays the quote arrays.  
+ 
+//This function displays the quote arrays.  
     function printQuote() {
 
       var randomQuote = getRandomQuote(quotes);
@@ -86,16 +60,9 @@ var quotes= [
 
           + randomQuote.category + '</span> </p>';
   
-  {
-    
-    document.body.style.backgroundColor = changeBackgroundColor();
-     print(quoteToPrint);
-  
-  }
+{
 
- 
-
-// function to place new HTML quote inside the "quote-box" div"
+ // function to place new HTML quote inside the "quote-box" div"
     document.getElementById('quote-box').innerHTML = quoteProps;
 
   }
