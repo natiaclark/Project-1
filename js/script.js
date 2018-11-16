@@ -38,17 +38,12 @@ var quotes= [
 ];
 
 
-
-
-
-
-  //Create the `getRandomQuote` function to:
+ //Create the `getRandomQuote` function to:
   function getRandomQuote(array) {
 
        return array[Math.floor(Math.random() * array.length)];
 
-   }
-
+  }
 
 // function printQuote:
 function printQuote() {
