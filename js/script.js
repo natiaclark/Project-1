@@ -8,8 +8,7 @@ var quotes= [
 {
   quote: "If you don/t like something change it.  If you can/t change it change your attitude.",
   source:"Maya Angelou",
-  year:
-  category:
+  
 },
 {
   quote:"People die but legends live forever.",
