@@ -1,7 +1,4 @@
-/******************************************
-Treehouse Techdegree:
-FSJS project 1 - A Random Quote Generator
-******************************************/
+//Treehouse Techdegree: FSJS project 1 - A Random Quote Generator
 
 // array of Quotes
 var quotes= [
