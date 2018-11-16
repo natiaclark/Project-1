@@ -13,7 +13,7 @@ var quotes= [
 {
   quote:"People die but legends live forever.",
   source: 'Tupac Shakur',
-  year:
+  
 
 },
 {
@@ -25,7 +25,7 @@ var quotes= [
 {
   quote:"There is only love. there is nothing else.",
   source:'Dena Botbyl',
-  year:
+  
 
 },
 {
