@@ -68,11 +68,6 @@ var quotes= [
 }
 
   
-  document.getElementById('quote-box').innerHTML = quoteProps;
-      
-
-   
-
 //"show another Quote" click button
 
 document.getElementById('loadQuote').addEventListener("click", printQuote); 
