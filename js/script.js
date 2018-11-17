@@ -93,42 +93,18 @@ function printQuote() {
   
   }
   
-  function changeBackgroundColor() {
-    //Call `getRandomRBG` 3x and assign to `backgroundRGB`: rbg(x,x,x) values.
-    var backgroundRGB = 'rgb(' + getRandomRGB() + ',' + getRandomRGB() + ',' + getRandomRGB() + ')';
-    //Reference the body background color and store new value.
-    var outputColor = document.body.style.background = backgroundRGB;
-    //Reference button background color and set it = to new background color.
-    var buttonColor = document.getElementById('loadQuote').style.background = outputColor;
-    //Return the new color!
-    return outputColor, buttonColor;
-
-  
-  
-  
-  }
-
-
-
-      
-     document.getElementById('quote-box').innerHTML = quoteProps;
+  document.getElementById('quote-box').innerHTML = quoteProps;
       
 
-    }
+   
 
 //"show another Quote" click button
 
-document.getElementById('loadQuote').addEventListener("click", function() {
-    printQuote();
-  changeBackgroundColor();
-});
+document.getElementById('loadQuote').addEventListener("click", printQuote) 
+    
+}
 
-//Init interval timer
-setInterval(function() {
-  //Load new quote + background color!
-  printQuote();
-  changeBackgroundColor();
-}, 30000);
+
 
 
 
