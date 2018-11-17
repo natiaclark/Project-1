@@ -3,7 +3,7 @@
 // array of Quotes
 var quotes= [
 {
-  quote: "If you don/t like something change it.  If you can/t change it change your attitude.",
+  quote: "If you don\'t like something change it.  If you can\'t change it change your attitude.",
   source:"Maya Angelou",
   citation: "keepinspiring.me, 2011",
 },
@@ -14,7 +14,7 @@ var quotes= [
 
 },
 {
-  quote: "Don/t get mad at me for being the best of what I was created to be.",
+  quote: "Don\'t get mad at me for being the best of what I was created to be.",
   source:'Kevin Gates',
   year: '2016'
 
@@ -31,7 +31,7 @@ var quotes= [
 
 },
   {
-   quote:"You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.",
+   quote:"You know you\’re in love when you can\’t fall asleep because reality is finally better than your dreams.",
    source:"Dr.Suess",
    citation: "Keepinspiring.me, 2011"
   
