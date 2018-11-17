@@ -100,9 +100,8 @@ function printQuote() {
 
 //"show another Quote" click button
 
-document.getElementById('loadQuote').addEventListener("click", printQuote) 
+document.getElementById('loadQuote').addEventListener("click", printQuote); 
     
-}
 
 
 
