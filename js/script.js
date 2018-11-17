@@ -58,8 +58,10 @@ var quotes= [
     
    //Reference the html container for the qutoe and output the quote and corresponding properties!
     var outputQuote = document.getElementById('quote-box');
-    outputQuote.innerHTML = html;
-    return outputQuote;
+       outputQuote.innerHTML = html;
+        return outputQuote;
+    
+ 
     }
 
 
