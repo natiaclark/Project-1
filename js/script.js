@@ -55,13 +55,8 @@ var quotes= [
     if (getQuote.hasOwnProperty('year')) {
       html += '<span class="year">' + getQuote.year + '</span>';
     }
-    //Check if quote has category property, if so add to html string
-    if (getQuote.hasOwnProperty('category')) {
-      html += getQuote.category;
-    }
-    //Close html 2nd <p> of html string to keep all secondary props on same line.
-    html += '</p>';
-    //Reference the html container for the qutoe and output the quote and corresponding properties!
+    
+   //Reference the html container for the qutoe and output the quote and corresponding properties!
     var outputQuote = document.getElementById('quote-box');
     outputQuote.innerHTML = html;
     return outputQuote;
